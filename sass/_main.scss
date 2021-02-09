@@ -1,0 +1,44 @@
+.main{
+    width: 100%;
+    height: 569px;
+    background-color: $color-DarkViolet;
+    color: white;
+
+    &__articulo{
+        padding-top: 168px;
+        padding-left: 157px;
+        width: 697px;
+        height: 100%;
+        color: white;
+    }
+    &__imagen{
+        position: absolute;
+        width: 540px;
+        height: 650px;
+        top:185px;
+        left: 735px;
+
+    }
+    button{
+        @include boton;
+        background-color: unset;
+        border: unset;
+        border: 2px solid white;
+        color: unset;
+        color: white;
+    }
+    button:hover{
+        background-color: white;
+        color: $color-DarkViolet;
+    }
+}
+
+.fondo{
+    position: absolute;
+    top: 443px;
+}
+.fondo-2{
+    position: absolute;
+    left: 913px;
+    top: 1px;
+}

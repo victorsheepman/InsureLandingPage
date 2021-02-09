@@ -1,0 +1,23 @@
+.different{
+    width: 100%;
+    height: 632px;
+    margin-top: 305px;
+    padding-left: 164px;
+    h2{
+        font-size: 65px;
+        margin-top: 67px;
+    }
+    &__linea{
+        height: 1px;
+        width: 150px;
+        background-color: $color-DarkGrayishViolet;
+    }
+    &__container{
+        display: flex;
+    }
+    article{
+        margin-top: 102px;   
+        text-align: left;
+        margin-right: 20px;
+    }
+}

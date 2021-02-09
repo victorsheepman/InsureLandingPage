@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3{
+    font-family: $fuente-header;
+}
+h4{
+    font-size: 15px;
+}
+h3{
+    font-weight: 700 bold;
+}
+p{
+    font-family: $fuent-body;
+}
